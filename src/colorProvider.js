@@ -15,7 +15,7 @@ import {
   const colorMatchShort =
     /#([0-9a-fA-F]{3})([0-9a-fA-F]{1})?/;
   // rgba(255, 0, 153, 1);
-  const rgbaMatch = /rgba?\(\s*\d+\s*,\s*\d+\s*,\s*\d+\s*(,\s*\d+\s*)?\)/;
+  const rgbaMatch = /rgba?\(\s*\d+\s*,\s*\d+\s*,\s*\d+\s*(,\s*(0\.|\.)?\d+\s*)?\)/;
   // hsl(60, 100%, 50%)
   const hslMatch = /hsl\(\s*(\d+)\s*,\s*([\d.]+)%\s*,\s*([\d.]+)%\s*\)/;
   // only match if followed by , or :
